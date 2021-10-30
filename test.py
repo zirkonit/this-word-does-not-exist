@@ -1,9 +1,9 @@
 from title_maker_pro.word_generator import WordGenerator
 word_generator = WordGenerator(
   device="cpu",
-  forward_model_path="<somepath1>",
-  inverse_model_path="<somepath2>",
-  blacklist_path="<blacklist>",
+  forward_model_path="forward-dictionary-model-v1",
+  inverse_model_path="inverse-dictionary-model-v1",
+  blacklist_path="blacklist.pickle",
   quantize=False,
 )
 
