@@ -14,10 +14,6 @@ word_generator = WordGenerator(
 # print(word_generator.generate_definition("rockerboy")) 
 
 # new word made up from a definition
-print(word_generator.generate_word_from_definition("a bright red edible berry widely cultivated in China, supposed to contain high levels of certain vitamins."))
-print(word_generator.generate_word_from_definition("a very large mass of solid waste in a sewerage system, consisting especially of congealed fat and personal hygiene products that have been flushed down toilets"))
-print(word_generator.generate_word_from_definition("an acute infectious disease caused by a coronavirus, with initial symptoms including fever and cough and in some cases progressing to pneumonia and respiratory failure. It was first recognized as an epidemic that began in China in 2002."))
-print(word_generator.generate_word_from_definition("any of various single-stranded RNA viruses including the Norwalk virus and closely related viruses."))
 print(word_generator.generate_word_from_definition("a cigarette-shaped device containing a nicotine-based liquid that is vaporized and inhaled, used to simulate the experience of smoking tobacco"))
 print(word_generator.generate_word_from_definition("a close but non-sexual relationship between two men."))
 print(word_generator.generate_word_from_definition("the explanation of something by a man, typically to a woman, in a manner regarded as condescending or patronizing"))
